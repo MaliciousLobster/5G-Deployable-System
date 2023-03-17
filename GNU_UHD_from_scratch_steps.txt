@@ -1,0 +1,23 @@
+***How to install Ubuntu 20.04.5 LTS, UHD, and GNU from scratch***
+
+1. Install Oracle Virtualbox
+	https://www.virtualbox.org/
+2. Install Linux Ubuntu 20.04.5 LTS
+	https://ubuntu.com/download/alternative-downloads
+3. guide on how to create a linux VM
+	https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview
+	
+	Allocate 50gb of disk space to the VM. You'll need this much space for installing UHD, GNU, and their dependencies.
+	Allocate as many CPU cores and as much RAM without compromising the host computer's performance. The SDRs and GNU require a lot of resources.
+4. Start your Linux VM
+5. In your linux VM, download all the dependencies required for the SDR to work with USRP, UHD, GNU, RFNoc, etc
+	Install perl by opening the terminal (shortcut for opening the terminal: ctrl + alt + t), and typing "sudo apt install perl"
+	Download this script.
+		http://66.228.35.220/Scripts/Script_Install_Packages_Ubuntu_20.04.pl
+	Run the script by typing "sudo perl (file location of the script)
+	Be prepared to wait ~2 hours, this is large install. There will be 2 or 3 prompts, just use the default setting and click through.
+6. Still in your VM, go through the steps on this page
+	http://66.228.35.220/Scripts/Script_Build_Install_UHD_4_GR_38.txt
+7. After following these steps, you should have successfully installed GNU and UHD and are now ready to start using the SDRs. Try out the FM receiver and see what radio stations you can pick up.
+	
+	
