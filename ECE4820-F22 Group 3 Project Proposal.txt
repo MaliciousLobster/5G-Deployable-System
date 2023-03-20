@@ -1,0 +1,75 @@
+﻿Deployable 5G Networks
+Using Software Defined Radios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+By: Marven Guirgis, Nate Munsell, and Jose Soto-Covarrubias 
+
+
+Advisor: Dr.Tamer Omar
+________________
+
+
+Executive Statement[a][b]
+        Oftentimes in the event of an emergency or disaster our communication system infrastructures will fail. This poses a challenge for emergency response personnel. When every minute counts and where communication is an absolute necessity, not having a reliable network infrastructure already in place could potentially result in the loss of human life. This project aims to provide a mobile, wireless communication system utilizing 5G technology to help those in crisis situations tackle even the most challenging environments.
+Introduction
+        Wireless communication has come a long way in the last forty years. Beginning with 1G in the late 70s and early 80s, people were able to communicate wirelessly with huge, encumbering, primitive cell phones. It provided no encryption, no roaming support, and coverage was almost non-existent. Next came 2G a decade later, and brought with it improvements in audio quality, reduced noise, as well as introducing encrypted calls. 2G also allowed for the transfer of bits, allowing for people to send SMS text messages, pictures, and multimedia messages. Then in the early 2000s, 3G was deployed for the first time and boasted four times the data transferring capabilities of 2G which allowed people to stream video and even have live video chat. Another 10 years later and 4G LTE was deployed. 4G LTE allowed for even higher video quality streaming, and provided up to 1gb/s speeds to stationary users. Finally, as recently as 2019, 5G has begun to roll out boasting speeds of upwards of twenty times faster than 4G. Smartphones now fit in the palm of your hand and provide HD video streaming on demand. Another big advantage of 5G lies within its latency and bandwidth size. 5G has the potential to drop latency rates down to 1 millisecond and comes equipped with a massive 30GHz to 300GHz frequency range.
+As it stands currently, 5G is not yet available on such a large scale. Therefore the goal of this project is to create a portable, deployable 5G network to provide wireless communication in areas where normal cellular signal either does not exist or has been destroyed. To achieve this goal, National Instruments manufactures Universal Software Radio Peripherals (USRPs) which provide Software Defined Radio (SDR) technology. These devices combine general-purpose processors, Field Programmable Gate Arrays (FPGAs), and radio frequency front ends which can be utilized to easily design, prototype, and deploy wireless systems. These radios can be combined with unmanned ground vehicles (UGVs) or unmanned aerial vehicles (UAVs) to achieve portability and which can be deployed at emergency sites where communication systems have failed. These unmanned vehiclesh can position themselves to create a new communication relay between the SDRs and normal functioning communication networks outside the emergency area. In doing so, emergency response personnel will be able to quickly correspond with each other and contact victims in need to potentially save lives.
+The scope of this project involves the transmission of radio signals through the utilization of SDRs and 5G’s newly developed wide bandwidth. These radios will be expected to communicate successfully to send messages using 5G signals, and to create a communication relay system. Additionally, the USRPs will be integrated with unmanned vehicles to create a functioning communication system in optimal conditions, such as a wide open field, without interfering with the vehicles’ ability to operate.        
+
+
+Technical Deliverables[c]
+* Technical Schematics (LabVIEW/GNU Radio)
+* Software Code
+* Block Diagram for Design
+* Prototype
+* Finished product
+Required Resources
+* SDR system (USRP, LimeSDR, etc.)
+* LabVIEW
+* GNU Radio
+* UAVs
+Tentative Schedule
+* September 20th : Project Proposal
+* October 27th : Literature review, introduction and references
+* December 6th : Methodology, design, proof of concepts, and implementation test bed
+
+
+
+
+[a]Maybe put the Executive statement under the Title page and make the font smaller like the project proposal example.
+
+
+We can also use times new roman font to decrease the size of our text in order to meet the 2-page requirement.
+
+
+We have until 11 pm tomorrow
+(09/19/2022)
+[b]I'm trying not to out right copy Adrien's project proposal. His has a lot of flourishes that I'm not sure are necessary for a good grade.
+In terms of font and text size: i havent seen anything regarding the formatting of the project proposal. If we need to change the font, we can
+[c]Is technical deliverables, required resources, and tentative schedule necessary? Again, this is something that appears on Adrien's proposal but is not something that I'm sure is necessary. It might be worth asking him why he included this in his proposal
